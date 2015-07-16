@@ -1,0 +1,25 @@
+{
+  "name": "sox",
+  "version": "1.0.0",
+  "description": "the website of sox-team",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sox-team/sox.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sox-team/sox/issues"
+  },
+  "homepage": "https://github.com/sox-team/sox#readme",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-sass": "^2.0.4",
+    "gulp-serve": "^1.0.0",
+    "gulp-swig": "^0.7.4"
+  }
+}
