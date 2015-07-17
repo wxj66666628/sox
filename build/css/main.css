@@ -8,7 +8,8 @@ a {
   text-decoration: none; }
 
 .container {
-  max-width: 960px;
+  max-width: 980px;
+  padding: 0 10px;
   margin: 0 auto;
   position: relative; }
 
@@ -58,12 +59,15 @@ a {
   float: left;
   font-weight: bold;
   text-transform: uppercase;
-  width: 100px;
   font-size: 16px; }
 
 .section .section-main {
-  padding-left: 120px;
+  padding-left: 100px;
   font-size: 16px; }
+  .section .section-main p {
+    margin: 0 0 20px 0; }
+    .section .section-main p:last-child {
+      margin-bottom: 0; }
 
 .section + .section {
   margin-top: 60px; }
@@ -82,6 +86,12 @@ a {
     content: '·';
     margin: 0 3px; }
 
+.member .icon {
+  display: none; }
+
+.member:hover .icon {
+  display: inline-block; }
+
 .member + .member {
   margin-top: 20px; }
 
@@ -89,6 +99,12 @@ a {
   padding: 100px 0 50px 0;
   font-size: 15px;
   color: #999; }
+
+.icon {
+  position: relative;
+  top: -2px;
+  left: 3px;
+  opacity: .65; }
 
 #welcome {
   -webkit-animation-delay: .5s;
@@ -127,3 +143,12 @@ a {
   100% {
     opacity: 1;
     transform: translateY(0); } }
+
+@media screen and (max-width: 768px) {
+  .welcome h2 {
+    font-size: 24px; }
+  .section .section-left {
+    float: none; }
+  .section .section-main {
+    padding-left: 0;
+    margin-top: 15px; } }
