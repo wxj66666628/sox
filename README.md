@@ -10,6 +10,9 @@ the website of sox-team
 克隆本项目，进入项目目录执行 `npm install`  
 终端输入 `gulp` 即可开始
 
+Project page: https://sox-team.github.io/sox/  
+Custom domain: http://sox.js.org  
+
 ## License
 
 本项目由 SOX team 维护
