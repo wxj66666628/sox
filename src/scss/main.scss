@@ -163,6 +163,8 @@ a {
   .section {
     .section-left {
       float: none;
+      border-bottom: 1px solid #eee;
+      padding-bottom: 15px;
     }
     .section-main {
       padding-left: 0;

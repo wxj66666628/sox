@@ -148,7 +148,9 @@ a {
   .welcome h2 {
     font-size: 24px; }
   .section .section-left {
-    float: none; }
+    float: none;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 15px; }
   .section .section-main {
     padding-left: 0;
     margin-top: 15px; } }
