@@ -131,6 +131,9 @@ a {
   color: #999;
   a {
     color: #999;
+    &:hover {
+      color: #778087;
+    }
   }
 }
 

@@ -101,6 +101,8 @@ a {
   color: #999; }
   .footer a {
     color: #999; }
+    .footer a:hover {
+      color: #778087; }
 
 .icon {
   position: relative;
